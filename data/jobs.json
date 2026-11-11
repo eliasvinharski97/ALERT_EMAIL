@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11T12:47:19.238125+00:00",
-  "total": 10,
-  "new_count": 10,
+  "updated_at": "2026-11-11T12:48:37.601121+00:00",
+  "total": 7,
+  "new_count": 7,
   "sources": [
     "Himalayas",
     "Remotive"
@@ -49,28 +49,6 @@
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
         "Competências: Excel, Suporte, Processos, Dashboards"
-      ],
-      "negatives": []
-    },
-    {
-      "id": "693dee54ffd6e371e5",
-      "source": "Himalayas",
-      "title": "5528023 - ANALISTA DE SUPORTE TÉCNICO JÚNIOR - VAGA EXCLUSIVA P/ PESSOAS COM DEF",
-      "company": "Quality Digital",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/quality-digital/jobs/5528023-analista-de-suporte-tecnico-junior-vaga-exclusiva-p-pessoas-com-def?utm_source=api",
-      "published": "2026-10-30T16:01:25+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 71,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil explicitamente incluído",
-        "Nível inicial/júnior",
-        "Competências: Suporte"
       ],
       "negatives": []
     },
@@ -161,53 +139,6 @@
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
         "Competências: Suporte, Processos",
-        "Anúncio recente"
-      ],
-      "negatives": [
-        "Senioridade não confirmada"
-      ]
-    },
-    {
-      "id": "da5b8818c40161f680",
-      "source": "Himalayas",
-      "title": "Analista de BI PL",
-      "company": "Grupo SysMap",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/grupo-sysmap/jobs/analista-de-bi-pl?utm_source=api",
-      "published": "2026-10-27T01:00:46+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 62,
-      "category": "Dados e BI",
-      "positives": [
-        "Cargo relacionado a Dados e BI",
-        "Brasil explicitamente incluído",
-        "Competências: SQL, Power BI, Excel"
-      ],
-      "negatives": [
-        "Senioridade não confirmada"
-      ]
-    },
-    {
-      "id": "dd58043b97d15f4725",
-      "source": "Remotive",
-      "title": "Tier III Service Desk Engineer",
-      "company": "Unio Digital",
-      "location": "Worldwide",
-      "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
-      "published": "2026-11-07T01:10:55",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil ou localidade elegível",
-      "score": 59,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil ou localidade elegível",
-        "Competências: Suporte",
         "Anúncio recente"
       ],
       "negatives": [

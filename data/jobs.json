@@ -1,7 +1,241 @@
 {
-  "updated_at": null,
-  "total": 0,
-  "new_count": 0,
-  "sources": [],
-  "jobs": []
+  "updated_at": "2026-11-11T12:47:19.238125+00:00",
+  "total": 10,
+  "new_count": 10,
+  "sources": [
+    "Himalayas",
+    "Remotive"
+  ],
+  "jobs": [
+    {
+      "id": "67a4bf7f5f95ff8767",
+      "source": "Himalayas",
+      "title": "ANALISTA DE DADOS JUNIOR",
+      "company": "Grupo Bancorbrás",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/grupo-bancorbras/jobs/analista-de-dados-junior?utm_source=api",
+      "published": "2026-11-08T09:30:45+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 84,
+      "category": "Dados e BI",
+      "positives": [
+        "Cargo relacionado a Dados e BI",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: SQL, Power BI, Python",
+        "Anúncio recente"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "551668b8aa6eb8c022",
+      "source": "Himalayas",
+      "title": "ASSISTENTE ADMINISTRATIVO - DEPARTAMENTO PESSOAL",
+      "company": "Grupo Bancorbrás",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/grupo-bancorbras/jobs/assistente-administrativo-departamento-pessoal?utm_source=api",
+      "published": "2026-10-30T01:14:38+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 83,
+      "category": "Operações e Administração",
+      "positives": [
+        "Cargo relacionado a Operações e Administração",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: Excel, Suporte, Processos, Dashboards"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "693dee54ffd6e371e5",
+      "source": "Himalayas",
+      "title": "5528023 - ANALISTA DE SUPORTE TÉCNICO JÚNIOR - VAGA EXCLUSIVA P/ PESSOAS COM DEF",
+      "company": "Quality Digital",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/quality-digital/jobs/5528023-analista-de-suporte-tecnico-junior-vaga-exclusiva-p-pessoas-com-def?utm_source=api",
+      "published": "2026-10-30T16:01:25+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 71,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: Suporte"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "a721e6d02d3012bbab",
+      "source": "Himalayas",
+      "title": "Analista de Suporte e Manutenção Júnior",
+      "company": "Geopixel",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/geopixel/jobs/analista-de-suporte-e-manutencao-junior-8054741564?utm_source=api",
+      "published": "2026-10-02T07:53:49+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 71,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: Suporte"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "f83468b9ad64072950",
+      "source": "Himalayas",
+      "title": "Analista de Sistemas",
+      "company": "Unifique",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/unifique/jobs/analista-de-sistemas?utm_source=api",
+      "published": "2026-11-08T08:55:09+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 67,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Competências: SQL, Suporte, Processos",
+        "Anúncio recente"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
+    },
+    {
+      "id": "f6aad93d0c422076e4",
+      "source": "Himalayas",
+      "title": "Analista de Suporte Técnico Jr. (ERP OMIE)",
+      "company": "Omie",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/omie/jobs/analista-de-suporte-tecnico-jr-erp-omie-4408802615?utm_source=api",
+      "published": "2026-10-20T15:32:43+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 67,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior"
+      ],
+      "negatives": [
+        "Poucas competências localizadas no anúncio"
+      ]
+    },
+    {
+      "id": "ea07b0757a1e67c5dd",
+      "source": "Himalayas",
+      "title": "Analista de Suporte de TI",
+      "company": "Dedalus",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/dedalus-com/jobs/analista-de-suporte-de-ti?utm_source=api",
+      "published": "2026-11-06T11:27:40+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 63,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Competências: Suporte, Processos",
+        "Anúncio recente"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
+    },
+    {
+      "id": "da5b8818c40161f680",
+      "source": "Himalayas",
+      "title": "Analista de BI PL",
+      "company": "Grupo SysMap",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/grupo-sysmap/jobs/analista-de-bi-pl?utm_source=api",
+      "published": "2026-10-27T01:00:46+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 62,
+      "category": "Dados e BI",
+      "positives": [
+        "Cargo relacionado a Dados e BI",
+        "Brasil explicitamente incluído",
+        "Competências: SQL, Power BI, Excel"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
+    },
+    {
+      "id": "dd58043b97d15f4725",
+      "source": "Remotive",
+      "title": "Tier III Service Desk Engineer",
+      "company": "Unio Digital",
+      "location": "Worldwide",
+      "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+      "published": "2026-11-07T01:10:55",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil ou localidade elegível",
+      "score": 59,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil ou localidade elegível",
+        "Competências: Suporte",
+        "Anúncio recente"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
+    },
+    {
+      "id": "cba2e1a5c7eeb1bc6a",
+      "source": "Himalayas",
+      "title": "Analista de Suporte Protheus",
+      "company": "Logithink",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/logithink/jobs/analista-de-suporte-protheus?utm_source=api",
+      "published": "2026-10-31T22:32:25+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 58,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Competências: Suporte, Processos"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
+    }
+  ]
 }

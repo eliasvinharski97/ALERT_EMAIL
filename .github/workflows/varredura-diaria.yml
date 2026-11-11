@@ -1,5 +1,11 @@
 name: VagaRadar - busca diária
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'config.json'
+      - '.github/workflows/varredura-diaria.yml'
   workflow_dispatch:
   schedule:
     - cron: '13 9 * * *'

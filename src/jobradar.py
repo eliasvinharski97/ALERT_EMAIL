@@ -125,6 +125,7 @@ def email_alert(jobs):
         else:
             with smtplib.SMTP(host,port,timeout=25) as s:
                 s.starttls(context=ssl.create_default_context());s.login(user,password);s.send_message(msg)
+        LOG.info("Servidor SMTP aceitou o envio de %d vagas para o destinatário configurado.", len(jobs))
         return True
     except (OSError,smtplib.SMTPException) as ex:
         LOG.error("Não enviou e-mail: %s",ex);return False

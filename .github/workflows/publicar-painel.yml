@@ -1,0 +1,47 @@
+name: VagaRadar - publicar painel
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'sw.js'
+      - 'manifest.webmanifest'
+      - 'assets/**'
+      - 'data/jobs.json'
+      - '.github/workflows/publicar-painel.yml'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['VagaRadar - busca diária']
+    types: [completed]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages-vagaradar
+  cancel-in-progress: false
+jobs:
+  publicar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - name: Montar painel
+        run: |
+          mkdir -p _site/assets _site/data
+          cp index.html sw.js manifest.webmanifest _site/
+          cp assets/icon.svg _site/assets/
+          cp data/jobs.json _site/data/jobs.json
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

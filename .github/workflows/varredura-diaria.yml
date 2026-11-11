@@ -1,0 +1,37 @@
+name: VagaRadar - busca diária
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 9 * * *'
+      timezone: 'America/Sao_Paulo'
+permissions:
+  contents: write
+concurrency:
+  group: vagaradar-diario
+  cancel-in-progress: false
+jobs:
+  buscar-vagas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Buscar, classificar e avisar
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+        run: python src/jobradar.py
+      - name: Atualizar vagas e histórico
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/jobs.json data/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza vagas diárias'
+            git pull --rebase
+            git push
+          fi

@@ -26,7 +26,8 @@ TERMS = {
     "Trainee": ["trainee", "graduate program", "internship", "estagio"]
 }
 SKILLS = {"SQL": ["sql"], "Power BI": ["power bi", "dax", "business intelligence"], "Python": ["python", "pandas"], "Excel": ["excel", "spreadsheets", "planilhas"], "Suporte": ["support", "suporte", "help desk"], "Processos": ["processos", "operations", "workflow"], "Dashboards": ["dashboard", "kpi", "indicadores"]}
-SENIOR = re.compile(r"\b(senior|sr|pleno|lead|staff|principal|head|director|manager|gerente|coordenador|especialista|architect|arquiteto)\b", re.I)
+SENIOR = re.compile(r"\b(senior|sr|pl|pleno|lead|staff|principal|head|director|manager|gerente|coordenador|especialista|architect|arquiteto|tier[ -]?(?:ii|iii|iv|[234]))\b", re.I)
+EXCLUSIVE = re.compile(r"(?:\bexclusiv[ao]\b.{0,100}\b(?:pcd|pessoa[s]? com deficiencia|pessoa[s]? com def)\b|\bpcd\b.{0,45}\bexclusiv[ao]\b)", re.I)
 UNRELATED = re.compile(r"\b(software engineer|desenvolvedor|account executive|sales representative|recruiter|product manager)\b", re.I)
 def norm(t):
     t = html.unescape(re.sub(r"<[^>]+>", " ", str(t or "")))
@@ -70,7 +71,7 @@ def fetch_remotive():
 def score(v, cfg):
     if not v["remote"] or (cfg.get("require_brazil_eligibility",True) and not v["location_allowed"]): return None
     title=norm(v["title"])
-    if SENIOR.search(title) or UNRELATED.search(title): return None
+    if SENIOR.search(title) or UNRELATED.search(title) or EXCLUSIVE.search(title): return None
     category=next((name for name,aliases in TERMS.items() if any(t in title for t in aliases)),None)
     if not category: return None
     pub=None

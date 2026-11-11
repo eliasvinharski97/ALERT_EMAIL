@@ -102,9 +102,14 @@ def save(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding="utf-8")
 def email_alert(jobs):
-    keys=["SMTP_HOST","SMTP_USER","SMTP_PASSWORD","ALERT_EMAIL"]
-    host,user,password,recipient=[os.getenv(k) for k in keys]
-    if not all((host,user,password,recipient)):return False
+    # Gmail é a configuração padrão; outros provedores podem sobrescrever SMTP_HOST/PORT/USER.
+    recipient=os.getenv("ALERT_EMAIL")
+    user=os.getenv("SMTP_USER") or recipient
+    host=os.getenv("SMTP_HOST") or "smtp.gmail.com"
+    password=os.getenv("SMTP_PASSWORD")
+    if not all((host,user,password,recipient)):
+        LOG.warning("Alertas por e-mail não configurados: adicione ALERT_EMAIL e SMTP_PASSWORD aos Secrets.")
+        return False
     msg=EmailMessage()
     msg["From"]=user;msg["To"]=recipient
     msg["Subject"]=f"VagaRadar — {len(jobs)} novas vagas remotas"

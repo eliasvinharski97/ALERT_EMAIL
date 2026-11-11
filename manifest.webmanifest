@@ -1,0 +1,18 @@
+{
+  "name": "VagaRadar — Seu Radar de Vagas",
+  "short_name": "VagaRadar",
+  "description": "Busca inteligente de vagas remotas.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fd",
+  "theme_color": "#101b3c",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

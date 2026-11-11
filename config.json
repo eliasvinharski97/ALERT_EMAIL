@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "headline": "Dados, BI, TI e Operações | Remoto júnior",
+    "minimum_score": 55,
+    "days_old_max": 45,
+    "max_alerts_per_run": 8,
+    "require_brazil_eligibility": true
+  },
+  "queries": [
+    "data analyst",
+    "business intelligence",
+    "technical support",
+    "operations analyst",
+    "analista de dados",
+    "analista de suporte"
+  ],
+  "sources": {
+    "himalayas": true,
+    "remotive": true
+  }
+}

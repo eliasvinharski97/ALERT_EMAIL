@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11T13:26:52.012935+00:00",
+  "updated_at": "2026-11-12T19:51:40.432759+00:00",
   "total": 7,
-  "new_count": 7,
+  "new_count": 1,
   "sources": [
     "Himalayas",
     "Remotive"
@@ -75,6 +75,30 @@
       "negatives": []
     },
     {
+      "id": "5f85bbed7e00af8ab4",
+      "source": "Himalayas",
+      "title": "Analista de Suporte e Sistemas RM",
+      "company": "Agro Serra",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/agro-serra/jobs/analista-de-suporte-e-sistemas-rm?utm_source=api",
+      "published": "2026-11-12T12:34:59+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 67,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Competências: SQL, Excel, Suporte",
+        "Anúncio recente"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
+    },
+    {
       "id": "f83468b9ad64072950",
       "source": "Himalayas",
       "title": "Analista de Sistemas",
@@ -119,30 +143,6 @@
       ],
       "negatives": [
         "Poucas competências localizadas no anúncio"
-      ]
-    },
-    {
-      "id": "ea07b0757a1e67c5dd",
-      "source": "Himalayas",
-      "title": "Analista de Suporte de TI",
-      "company": "Dedalus",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/dedalus-com/jobs/analista-de-suporte-de-ti?utm_source=api",
-      "published": "2026-11-06T11:27:40+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 63,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil explicitamente incluído",
-        "Competências: Suporte, Processos",
-        "Anúncio recente"
-      ],
-      "negatives": [
-        "Senioridade não confirmada"
       ]
     },
     {

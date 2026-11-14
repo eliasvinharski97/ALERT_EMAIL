@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:36:31.748061+00:00",
+  "updated_at": "2026-11-14T17:57:30.520566+00:00",
   "total": 8,
   "new_count": 1,
   "sources": [
@@ -7,6 +7,29 @@
     "Remotive"
   ],
   "jobs": [
+    {
+      "id": "0192c7863ee5a3c868",
+      "source": "Himalayas",
+      "title": "Analista de Suporte Sistemas Junior",
+      "company": "Nexdom Healthtech",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/nexdom-healthtech/jobs/analista-de-suporte-sistemas-junior?utm_source=api",
+      "published": "2026-11-14T09:40:17+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 84,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: SQL, Suporte, Processos",
+        "Anúncio recente"
+      ],
+      "negatives": []
+    },
     {
       "id": "67a4bf7f5f95ff8767",
       "source": "Himalayas",
@@ -120,29 +143,6 @@
       ],
       "negatives": [
         "Senioridade não confirmada"
-      ]
-    },
-    {
-      "id": "f6aad93d0c422076e4",
-      "source": "Himalayas",
-      "title": "Analista de Suporte Técnico Jr. (ERP OMIE)",
-      "company": "Omie",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/omie/jobs/analista-de-suporte-tecnico-jr-erp-omie-4408802615?utm_source=api",
-      "published": "2026-10-20T15:32:43+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 67,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil explicitamente incluído",
-        "Nível inicial/júnior"
-      ],
-      "negatives": [
-        "Poucas competências localizadas no anúncio"
       ]
     },
     {

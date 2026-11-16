@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T18:46:32.955728+00:00",
+  "updated_at": "2026-11-16T21:57:03.255295+00:00",
   "total": 8,
   "new_count": 0,
   "sources": [
@@ -31,29 +31,6 @@
       "negatives": []
     },
     {
-      "id": "67a4bf7f5f95ff8767",
-      "source": "Himalayas",
-      "title": "ANALISTA DE DADOS JUNIOR",
-      "company": "Grupo Bancorbrás",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/grupo-bancorbras/jobs/analista-de-dados-junior?utm_source=api",
-      "published": "2026-11-08T09:30:45+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 84,
-      "category": "Dados e BI",
-      "positives": [
-        "Cargo relacionado a Dados e BI",
-        "Brasil explicitamente incluído",
-        "Nível inicial/júnior",
-        "Competências: SQL, Power BI, Python",
-        "Anúncio recente"
-      ],
-      "negatives": []
-    },
-    {
       "id": "551668b8aa6eb8c022",
       "source": "Himalayas",
       "title": "ASSISTENTE ADMINISTRATIVO - DEPARTAMENTO PESSOAL",
@@ -72,6 +49,28 @@
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
         "Competências: Excel, Suporte, Processos, Dashboards"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "67a4bf7f5f95ff8767",
+      "source": "Himalayas",
+      "title": "ANALISTA DE DADOS JUNIOR",
+      "company": "Grupo Bancorbrás",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/grupo-bancorbras/jobs/analista-de-dados-junior?utm_source=api",
+      "published": "2026-11-08T09:30:45+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 79,
+      "category": "Dados e BI",
+      "positives": [
+        "Cargo relacionado a Dados e BI",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: SQL, Power BI, Python"
       ],
       "negatives": []
     },
@@ -133,13 +132,12 @@
       "remote": true,
       "location_allowed": true,
       "location_reason": "Brasil explicitamente incluído",
-      "score": 67,
+      "score": 62,
       "category": "TI e Suporte",
       "positives": [
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
-        "Competências: SQL, Suporte, Processos",
-        "Anúncio recente"
+        "Competências: SQL, Suporte, Processos"
       ],
       "negatives": [
         "Senioridade não confirmada"

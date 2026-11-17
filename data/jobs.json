@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T21:57:03.255295+00:00",
-  "total": 8,
+  "updated_at": "2026-11-17T20:50:21.303170+00:00",
+  "total": 7,
   "new_count": 0,
   "sources": [
     "Himalayas",
@@ -71,28 +71,6 @@
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
         "Competências: SQL, Power BI, Python"
-      ],
-      "negatives": []
-    },
-    {
-      "id": "a721e6d02d3012bbab",
-      "source": "Himalayas",
-      "title": "Analista de Suporte e Manutenção Júnior",
-      "company": "Geopixel",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/geopixel/jobs/analista-de-suporte-e-manutencao-junior-8054741564?utm_source=api",
-      "published": "2026-10-02T07:53:49+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 71,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil explicitamente incluído",
-        "Nível inicial/júnior",
-        "Competências: Suporte"
       ],
       "negatives": []
     },

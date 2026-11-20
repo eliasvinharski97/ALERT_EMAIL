@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T20:29:14.867639+00:00",
-  "total": 8,
+  "updated_at": "2026-11-20T20:05:56.226290+00:00",
+  "total": 10,
   "new_count": 2,
   "sources": [
     "Himalayas",
@@ -26,6 +26,52 @@
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
         "Competências: Excel, Suporte, Processos, Dashboards",
+        "Anúncio recente"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "0192c7863ee5a3c868",
+      "source": "Himalayas",
+      "title": "Analista de Suporte Sistemas Junior",
+      "company": "Nexdom Healthtech",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/nexdom-healthtech/jobs/analista-de-suporte-sistemas-junior?utm_source=api",
+      "published": "2026-11-20T09:32:30+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 84,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: SQL, Suporte, Processos",
+        "Anúncio recente"
+      ],
+      "negatives": []
+    },
+    {
+      "id": "8322ae8f9f99010e99",
+      "source": "Himalayas",
+      "title": "Analista de Suporte Técnico | Junior (PEOP-13904) [Afirmativa PCD]",
+      "company": "Sensedia",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/sensedia/jobs/analista-de-suporte-tecnico-junior-peop-13904-afirmativa-pcd?utm_source=api",
+      "published": "2026-11-19T21:18:45+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 84,
+      "category": "TI e Suporte",
+      "positives": [
+        "Cargo relacionado a TI e Suporte",
+        "Brasil explicitamente incluído",
+        "Nível inicial/júnior",
+        "Competências: Python, Suporte, Processos",
         "Anúncio recente"
       ],
       "negatives": []
@@ -148,13 +194,13 @@
       ]
     },
     {
-      "id": "d135e71f3db2a5340f",
+      "id": "0bf9e8618723edc8fe",
       "source": "Himalayas",
-      "title": "Analista de Suporte Técnico: AVD e Citrix",
-      "company": "DXC Technology",
+      "title": "Technical Support Expert",
+      "company": "Docusign",
       "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/dxc-technology/jobs/analista-de-suporte-tecnico-avd-e-citrix?utm_source=api",
-      "published": "2026-11-19T16:42:34+00:00",
+      "url": "https://himalayas.app/companies/docusign/jobs/technical-support-expert?utm_source=api",
+      "published": "2026-11-20T16:57:15+00:00",
       "salary": "",
       "remote": true,
       "location_allowed": true,
@@ -172,23 +218,23 @@
       ]
     },
     {
-      "id": "024df44d4767490d79",
+      "id": "d135e71f3db2a5340f",
       "source": "Himalayas",
-      "title": "Mid Level Data Analyst",
-      "company": "Blip",
+      "title": "Analista de Suporte Técnico: AVD e Citrix",
+      "company": "DXC Technology",
       "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/blip-ai/jobs/mid-level-data-analyst?utm_source=api",
-      "published": "2026-11-19T12:52:50+00:00",
+      "url": "https://himalayas.app/companies/dxc-technology/jobs/analista-de-suporte-tecnico-avd-e-citrix?utm_source=api",
+      "published": "2026-11-19T16:42:34+00:00",
       "salary": "",
       "remote": true,
       "location_allowed": true,
       "location_reason": "Brasil explicitamente incluído",
       "score": 59,
-      "category": "Dados e BI",
+      "category": "TI e Suporte",
       "positives": [
-        "Cargo relacionado a Dados e BI",
+        "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
-        "Competências: SQL",
+        "Competências: Suporte",
         "Anúncio recente"
       ],
       "negatives": [

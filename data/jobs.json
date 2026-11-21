@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T20:05:56.226290+00:00",
-  "total": 10,
-  "new_count": 2,
+  "updated_at": "2026-11-21T19:08:47.261949+00:00",
+  "total": 9,
+  "new_count": 0,
   "sources": [
     "Himalayas",
     "Remotive"
@@ -187,30 +187,6 @@
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
         "Competências: Suporte, Processos",
-        "Anúncio recente"
-      ],
-      "negatives": [
-        "Senioridade não confirmada"
-      ]
-    },
-    {
-      "id": "0bf9e8618723edc8fe",
-      "source": "Himalayas",
-      "title": "Technical Support Expert",
-      "company": "Docusign",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/docusign/jobs/technical-support-expert?utm_source=api",
-      "published": "2026-11-20T16:57:15+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 59,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil explicitamente incluído",
-        "Competências: Suporte",
         "Anúncio recente"
       ],
       "negatives": [

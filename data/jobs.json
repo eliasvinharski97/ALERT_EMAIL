@@ -1,35 +1,12 @@
 {
-  "updated_at": "2026-11-22T19:31:17.446410+00:00",
-  "total": 9,
+  "updated_at": "2026-11-23T23:48:44.298841+00:00",
+  "total": 8,
   "new_count": 0,
   "sources": [
     "Himalayas",
     "Remotive"
   ],
   "jobs": [
-    {
-      "id": "551668b8aa6eb8c022",
-      "source": "Himalayas",
-      "title": "ASSISTENTE ADMINISTRATIVO - DEPARTAMENTO PESSOAL",
-      "company": "Grupo Bancorbrás",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/grupo-bancorbras/jobs/assistente-administrativo-departamento-pessoal?utm_source=api",
-      "published": "2026-11-19T17:01:11+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 88,
-      "category": "Operações e Administração",
-      "positives": [
-        "Cargo relacionado a Operações e Administração",
-        "Brasil explicitamente incluído",
-        "Nível inicial/júnior",
-        "Competências: Excel, Suporte, Processos, Dashboards",
-        "Anúncio recente"
-      ],
-      "negatives": []
-    },
     {
       "id": "0192c7863ee5a3c868",
       "source": "Himalayas",

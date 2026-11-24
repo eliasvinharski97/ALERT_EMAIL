@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T23:48:44.298841+00:00",
-  "total": 8,
-  "new_count": 0,
+  "updated_at": "2026-11-24T22:21:04.956330+00:00",
+  "total": 9,
+  "new_count": 1,
   "sources": [
     "Himalayas",
     "Remotive"
@@ -121,6 +121,30 @@
         "Anúncio recente"
       ],
       "negatives": []
+    },
+    {
+      "id": "cfb2ac32e9ee137dc9",
+      "source": "Himalayas",
+      "title": "Business Operations Analyst, Governance",
+      "company": "Quartile",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/quartile/jobs/business-operations-analyst-governance?utm_source=api",
+      "published": "2026-11-24T11:12:54+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 67,
+      "category": "Operações e Administração",
+      "positives": [
+        "Cargo relacionado a Operações e Administração",
+        "Brasil explicitamente incluído",
+        "Competências: SQL, Processos, Dashboards",
+        "Anúncio recente"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
     },
     {
       "id": "5f85bbed7e00af8ab4",

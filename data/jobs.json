@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T21:37:36.481661+00:00",
-  "total": 8,
+  "updated_at": "2026-11-26T21:26:15.673915+00:00",
+  "total": 7,
   "new_count": 0,
   "sources": [
     "Himalayas",
@@ -49,29 +49,6 @@
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
         "Competências: Python, Suporte, Processos",
-        "Anúncio recente"
-      ],
-      "negatives": []
-    },
-    {
-      "id": "67a4bf7f5f95ff8767",
-      "source": "Himalayas",
-      "title": "ANALISTA DE DADOS JUNIOR",
-      "company": "Grupo Bancorbrás",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/grupo-bancorbras/jobs/analista-de-dados-junior?utm_source=api",
-      "published": "2026-11-19T16:51:40+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 84,
-      "category": "Dados e BI",
-      "positives": [
-        "Cargo relacionado a Dados e BI",
-        "Brasil explicitamente incluído",
-        "Nível inicial/júnior",
-        "Competências: SQL, Power BI, Python",
         "Anúncio recente"
       ],
       "negatives": []

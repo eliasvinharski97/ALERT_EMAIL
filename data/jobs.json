@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T21:26:15.673915+00:00",
+  "updated_at": "2026-11-27T21:09:38.427552+00:00",
   "total": 7,
-  "new_count": 0,
+  "new_count": 1,
   "sources": [
     "Himalayas",
     "Remotive"
@@ -65,16 +65,39 @@
       "remote": true,
       "location_allowed": true,
       "location_reason": "Brasil explicitamente incluído",
-      "score": 84,
+      "score": 79,
       "category": "TI e Suporte",
       "positives": [
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
-        "Competências: Python, Suporte, Processos",
-        "Anúncio recente"
+        "Competências: Python, Suporte, Processos"
       ],
       "negatives": []
+    },
+    {
+      "id": "25b1ebf3e0bae42bd4",
+      "source": "Himalayas",
+      "title": "Data Analyst",
+      "company": "Huzzle",
+      "location": "Global / remoto",
+      "url": "https://himalayas.app/companies/huzzle/jobs/data-analyst-8334198535?utm_source=api",
+      "published": "2026-11-27T19:44:03+00:00",
+      "salary": "",
+      "remote": true,
+      "location_allowed": true,
+      "location_reason": "Brasil explicitamente incluído",
+      "score": 71,
+      "category": "Dados e BI",
+      "positives": [
+        "Cargo relacionado a Dados e BI",
+        "Brasil explicitamente incluído",
+        "Competências: SQL, Power BI, Suporte, Dashboards",
+        "Anúncio recente"
+      ],
+      "negatives": [
+        "Senioridade não confirmada"
+      ]
     },
     {
       "id": "a721e6d02d3012bbab",
@@ -88,14 +111,13 @@
       "remote": true,
       "location_allowed": true,
       "location_reason": "Brasil explicitamente incluído",
-      "score": 76,
+      "score": 71,
       "category": "TI e Suporte",
       "positives": [
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
         "Nível inicial/júnior",
-        "Competências: Suporte",
-        "Anúncio recente"
+        "Competências: Suporte"
       ],
       "negatives": []
     },
@@ -111,13 +133,12 @@
       "remote": true,
       "location_allowed": true,
       "location_reason": "Brasil explicitamente incluído",
-      "score": 67,
+      "score": 62,
       "category": "TI e Suporte",
       "positives": [
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
-        "Competências: SQL, Excel, Suporte",
-        "Anúncio recente"
+        "Competências: SQL, Excel, Suporte"
       ],
       "negatives": [
         "Senioridade não confirmada"
@@ -135,37 +156,12 @@
       "remote": true,
       "location_allowed": true,
       "location_reason": "Brasil explicitamente incluído",
-      "score": 63,
+      "score": 58,
       "category": "TI e Suporte",
       "positives": [
         "Cargo relacionado a TI e Suporte",
         "Brasil explicitamente incluído",
-        "Competências: Suporte, Processos",
-        "Anúncio recente"
-      ],
-      "negatives": [
-        "Senioridade não confirmada"
-      ]
-    },
-    {
-      "id": "d135e71f3db2a5340f",
-      "source": "Himalayas",
-      "title": "Analista de Suporte Técnico: AVD e Citrix",
-      "company": "DXC Technology",
-      "location": "Global / remoto",
-      "url": "https://himalayas.app/companies/dxc-technology/jobs/analista-de-suporte-tecnico-avd-e-citrix?utm_source=api",
-      "published": "2026-11-19T16:42:34+00:00",
-      "salary": "",
-      "remote": true,
-      "location_allowed": true,
-      "location_reason": "Brasil explicitamente incluído",
-      "score": 59,
-      "category": "TI e Suporte",
-      "positives": [
-        "Cargo relacionado a TI e Suporte",
-        "Brasil explicitamente incluído",
-        "Competências: Suporte",
-        "Anúncio recente"
+        "Competências: Suporte, Processos"
       ],
       "negatives": [
         "Senioridade não confirmada"
